@@ -4,4 +4,7 @@
 
 def roll
   # code goes here
+  die = [1,2,3,4,5,6]
+  roll = rand(die.length)
+  die[roll]
 end
